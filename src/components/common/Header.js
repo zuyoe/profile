@@ -26,6 +26,7 @@ const Header = () => {
     <ul id='gnb'>
       <li> <NavLink activeStyle={active} to="/department">department</NavLink> </li>
       <li> <NavLink activeStyle={active} to="/community">community</NavLink> </li>
+      <li> <NavLink activeStyle={active} to="/schedule">schedule</NavLink> </li>
       <li> <NavLink activeStyle={active} to="/gallery">gallery</NavLink> </li>
       <li> <NavLink activeStyle={active} to="/youtube">youtube</NavLink> </li>
       <li> <NavLink activeStyle={active} to="/location">location</NavLink> </li>
